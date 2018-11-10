@@ -12,12 +12,13 @@
         "pages/pay/pay",
         "pages/webpage/webpage",
         "pages/comments/comments",
-        "pages/poster/poster"
+        "pages/poster/poster",
+        "pages/test/test"
     ],
     "window": {
         "backgroundTextStyle": "dark",
-        "navigationBarBackgroundColor": "#118fff",
-        "navigationBarTitleText": "守望轩",
+        "navigationBarBackgroundColor": "#DC143C",
+        "navigationBarTitleText": "兰州大学-校园展示作品",
         "navigationBarTextStyle": "white"
     },
     "tabBar": {
@@ -30,14 +31,15 @@
                 "pagePath": "pages/index/index",
                 "iconPath": "images/tar-home.png",
                 "selectedIconPath": "images/tar-home-on.png",
-                "text": "首页"
+                "text": "咨讯"
             },
             {
-                "pagePath": "pages/topic/topic",
-                "iconPath": "images/tar-topic.png",
-                "selectedIconPath": "images/tar-topic-on.png",
-                "text": "专题"
+              "pagePath": "pages/test/test",
+              "iconPath": "images/tar-topic.png",
+              "selectedIconPath": "images/tar-topic-on.png",
+              "text": "留言"
             },
+
             {
                 "pagePath": "pages/readlog/readlog",
                 "iconPath": "images/tar-person.png",
@@ -59,3 +61,5 @@
         "downloadFile": 10000
     }
 }
+
+
